@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>news</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item-sliding *ngFor="let entry of rssDataArray">
+            <ion-item class="entry" text-wrap>
+                <a (click)="openUrl(entry)">{{ entry.title }}</a>
+            </ion-item>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>

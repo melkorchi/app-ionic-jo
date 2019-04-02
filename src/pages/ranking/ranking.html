@@ -1,0 +1,43 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+        <ion-title>Ranking</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row id="head">
+            <ion-col>Rank</ion-col>
+            <ion-col col-5>Pays</ion-col>
+            <ion-col>Or</ion-col>
+            <ion-col>Ar</ion-col>
+            <ion-col>Br</ion-col>
+            <ion-col>Total</ion-col>
+        </ion-row>
+
+        <ion-row *ngFor="let rank of rankingDatas">
+            <ion-col>{{ rank.recordId }}</ion-col>
+            <ion-col col-5>{{ rank.pays }}</ion-col>
+            <ion-col>{{ rank.or }}</ion-col>
+            <ion-col>{{ rank.argent }}</ion-col>
+            <ion-col>{{ rank.bronze }}</ion-col>
+            <ion-col>{{ rank.total }}</ion-col>
+        </ion-row>
+
+    </ion-grid>
+    <!-- <ion-list>
+        <ion-item-sliding *ngFor="let rank of rankingDatas">
+            <ion-item>
+                {{ rank.recordId }}-{{ rank.pays }}
+            </ion-item>
+        </ion-item-sliding>
+    </ion-list> -->
+
+</ion-content>
+<ion-footer color="primary">
+    footer
+</ion-footer>

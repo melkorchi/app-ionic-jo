@@ -1,0 +1,374 @@
+{
+    "records": [{
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "62112caabff6df1bf49be3cb9b9d740dd13fd8c7",
+            "fields": {
+                "latlon": [
+                    48.8578,
+                    2.361724
+                ],
+                "lang": "fr",
+                "title": "MUSÉES ET GASTRONOMIE",
+                "uid": "95510651",
+                "placename": "Bibliothèque Historique de la Ville de Paris",
+                "pricing_info": "Entrée libre dans la limite des places disponibles",
+                "image": "http://cibul.s3.amazonaws.com/event_musees-et-gastronomie_845740.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-19T08:17:43+00:00",
+                "space_time_info": "Bibliothèque Historique de la Ville de Paris, le mardi 11 décembre à 16:30",
+                "department": "Paris",
+                "city": "Paris",
+                "link": "http://openagenda.com/event/musees-et-gastronomie",
+                "free_text": "*   Christy SHIELDS-ARGELES (American University of Paris) \n\n_Présenter le goût : l’exemple du fromage de Comté_\n\n*   Liz WILLIAMS  (The Southern Food &amp; Beverage Museum, La Nouvelle-Orléans, Etats-Unis / National Food &amp; Beverage Foundation), \n\n_Le Southern Food and Beverage Museum (SoFAB) à La Nouvelle-Orléans, Louisiane_\n\n[Programme complet du séminaire](http://www.chcsc.uvsq.fr/medias-et-mediations-de-la-gastronomie-xviie-xxie-siecles--417247.kjsp?RH=1295348813643&amp;RF=1295348813643 )",
+                "address": "24, rue Pavée  Paris 4e",
+                "timetable": "2018-12-11T16:30:00 2018-12-11T19:00:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_musees-et-gastronomie_845740.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "tags": "gastronomie,musée,médias,médiation,alimentation,food,histoire",
+                "description": "3e séance de la 6e saison du séminaire \"Médias et médiations de la gastronomie (XVIIe-XXIe siècles)\""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.361724,
+                    48.8578
+                ]
+            },
+            "record_timestamp": "2018-11-19T08:17:43+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "5193bbcf089c9b938291982a82d03b838c59b1af",
+            "fields": {
+                "latlon": [
+                    48.893408,
+                    2.383164
+                ],
+                "lang": "fr",
+                "title": "Porte Ouverte Ecole de Service Social",
+                "uid": "95967022",
+                "placename": "Ecole de Service Social CRAMIF",
+                "pricing_info": "Entrée libre",
+                "image": "http://cibul.s3.amazonaws.com/event_porte-ouverte-ecole-de-service-social_961894.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-28T14:58:37+00:00",
+                "space_time_info": "Ecole de Service Social CRAMIF, le mardi 11 décembre à 14:00",
+                "department": "Paris",
+                "city": "Paris",
+                "link": "http://openagenda.com/event/porte-ouverte-ecole-de-service-social",
+                "free_text": "Au programme de cette demi-journée : information sur la formation d’Assistant de service social, le métier, les débouchés, rencontre avec l’équipe pédagogique mais aussi visite des locaux de l’Ecole et échanges avec les élèves en cours de scolarité et des professionnels en activité.\n\nLe format de cette journée permettra des échanges personnalisés, pratiques et conviviaux. L’objectif est de consolider les vocations et de donner envie mais aussi de découvrir concrètement à quoi ressemble la scolarité à l’Ecole de Service Social.",
+                "address": "17-19 place de l'argonne, 75019 PARIS",
+                "timetable": "2018-12-11T14:00:00 2018-12-11T17:00:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_porte-ouverte-ecole-de-service-social_961894.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "tags": "Porte ouverte,DEASS",
+                "description": "Découverte de l'Ecole de Service Social, information sur la formation et inscriptions aux sélection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.383164,
+                    48.893408
+                ]
+            },
+            "record_timestamp": "2018-11-28T14:58:37+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "d509b4951faeb2a89200d9a6f60493e35621de8a",
+            "fields": {
+                "latlon": [
+                    48.855028,
+                    2.398074
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "description": "Répétition de la chorale",
+                "placename": "79 rue Alexandre Dumas à l'oratoire",
+                "date_end": "2018-12-11",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-12-08T04:05:58+00:00",
+                "space_time_info": "79 rue Alexandre Dumas à l'oratoire, le mardi 11 décembre à 20:30",
+                "timetable": "2018-12-11T20:30:00 2018-12-11T22:00:00",
+                "link": "http://openagenda.com/event/chorale_266",
+                "free_text": "Mardi 11 Décembre 2018 20h30 répétition de la Chorale",
+                "address": "79 rue Alexandre Dumas 75020 Paris",
+                "department": "Paris",
+                "title": "Chorale",
+                "region": "Île-de-France",
+                "uid": "30280506"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.398074,
+                    48.855028
+                ]
+            },
+            "record_timestamp": "2018-12-08T04:05:58+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "01e04966fee90cc61c1b751ff58eff7466aafaad",
+            "fields": {
+                "latlon": [
+                    48.863588,
+                    2.345204
+                ],
+                "lang": "fr",
+                "title": "Conférence \"La  Grande Guerre dans les vitraux\"",
+                "uid": "53647523",
+                "placename": "Église Saint-Eustache (Presbytère)",
+                "pricing_info": "Entrée libre par le 2 impasse Saint-Eustache, 75001 Paris",
+                "image": "http://cibul.s3.amazonaws.com/event_conference-la-grande-guerre-dans-les-vitraux_401955.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-12-10T12:10:55+00:00",
+                "space_time_info": "Église Saint-Eustache (Presbytère), le mardi 11 décembre à 20:00",
+                "department": "Paris",
+                "city": "Paris",
+                "link": "http://openagenda.com/event/conference-la-grande-guerre-dans-les-vitraux",
+                "free_text": "\"Mémoire de guerre, avenir de paix\"  \nDans le cadre des commémorations de l’armistice de 1918 à Saint-Eustache.\n\n_Professeur en histoire contemporaine à l’université de Cergy-Pontoise, l’historien Jean-Claude Lescure a recensé les nombreux vitraux commémoratifs de la Première Guerre mondiale. Réalisés pour la plupart dans les années qui ont suivi le conflit, alors que les souvenirs étaient encore proches, ces vitraux honorent la mémoire des soldats disparus par des mises en scène qui rappellent le quotidien de la guerre pour mieux le transcender et donner ainsi un sens au sacrifice de ces hommes. Images à l’appui, Jean-Claude Lescure évoquera les thématiques à l’œuvre et dressera une synthèse sur la signification artistique et historique de ces vitraux du souvenir._\n\n[www.saint-eustache.org](http://www.saint-eustache.org/agenda/)",
+                "address": "2 impasse Saint-Eustache 75001 Paris",
+                "timetable": "2018-12-11T20:00:00 2018-12-11T20:30:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_conference-la-grande-guerre-dans-les-vitraux_401955.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "tags": "Conférence,GrandeGuerre,Armistice,Centenaire,Histoire,Culture",
+                "description": "Conférence illustrée de Jean-Claude Lescure"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345204,
+                    48.863588
+                ]
+            },
+            "record_timestamp": "2018-12-10T12:10:55+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "3bfde397d4432c29be08a25544df745a65a108fd",
+            "fields": {
+                "latlon": [
+                    48.856968,
+                    2.319324
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "uid": "84119612",
+                "title": "Séminaire Mémoire et audiovisuel : Cycle de séances autour du programme de recherche « 13-Novembre »",
+                "pricing_info": "L’entrée est libre dans la limite des places disponibles, inscription demandée à :",
+                "image": "http://cibul.s3.amazonaws.com/event_seminaire-memoire-et-audiovisuel-cycle-de-seances-autour-du-programme-de-recherche-13-novembre_547_184414.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-28T09:55:56+00:00",
+                "space_time_info": "Ina - Auditorium, sous-sol du Hall Chappe, le mardi 11 décembre à 16:00",
+                "department": "Paris",
+                "link": "http://openagenda.com/event/seminaire-memoire-et-audiovisuel-cycle-de-seances-autour-du-programme-de-recherche-13-novembre_547",
+                "free_text": "### «Le trouble de stress post-traumatique : premières leçons du 13-Novembre»\n\n*   **Jacques Dayan**, pédopsychiatre (Université Rennes 1)",
+                "placename": "Ina - Auditorium,sous-sol du Hall Chappe",
+                "timetable": "2018-12-11T16:00:00 2018-12-11T18:00:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_seminaire-memoire-et-audiovisuel-cycle-de-seances-autour-du-programme-de-recherche-13-novembre_547_184414.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "address": "103 rue de Grenelle, Paris",
+                "description": "Mieux comprendre l’articulation entre mémoire individuelle et mémoire collective d’un évènement traumatique."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.319324,
+                    48.856968
+                ]
+            },
+            "record_timestamp": "2018-11-28T09:55:56+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "8d6c755a4ab49d64de973e8bd1c668a306ef330f",
+            "fields": {
+                "latlon": [
+                    48.848838,
+                    2.352034
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "uid": "81381487",
+                "placename": "Collège des Bernardins 20,ru de Poissy -75005 Paris",
+                "pricing_info": "Tarif : 6€ - 3€ (réduit)",
+                "image": "http://cibul.s3.amazonaws.com/event_la-raison-n-epuise-pas-la-vie-soiree-autour-de-charles-peguy_612538.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-02T11:18:24+00:00",
+                "space_time_info": "Collège des Bernardins 20, ru de Poissy -75005 Paris, le mardi 11 décembre à 20:00",
+                "department": "Paris",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_la-raison-n-epuise-pas-la-vie-soiree-autour-de-charles-peguy_612538.jpg",
+                "city_district": "Paris 5e Arrondissement",
+                "link": "http://openagenda.com/event/la-raison-n-epuise-pas-la-vie-soiree-autour-de-charles-peguy",
+                "free_text": "Héraut de la raison, défenseur de l’idéal socialiste, mystique chrétien, mais hors de l’Église… Charles Péguy apparaît, de par son itinéraire intellectuel et spirituel, comme une figure paradoxale. De l’engagement militant politique et littéraire à la mystique poétique, il était animé par la recherche d’une liberté et de la vérité – qui se confondit souvent avec celle de ses vérités. À bien des égards, Charles Péguy semble incarner cette tension entre l’envie et la possibilité de croire.\n\nComment ce chemin personnel, presque insaisissable, nous éclaire-t-il aujourd’hui ? Que dit-il des calculs d’équilibre que nous entretenons entre foi et raison ? \n\nC’est autour de cette grande figure littéraire du XXe siècle, et à l’occasion de la sortie du Dictionnaire que lui consacrent les Éditions Albin Michel que se clôt la saison 2018 des Mardis des Bernardins.\n\nDébat animé par Didier Pourquery, directeur de la rédaction [The Conversation France](https://theconversation.com/fr)\n\n_\" Nous savons que la raison n’épuise pas la vie et même le meilleur de la vie ; nous savons que les instincts et les inconscients sont d’un être plus profondément existant sans doute. Nous estimons à leur valeur les pensées confuses, les impressions, les pensées obscures, les sentiments et même les sensations. Mais nous demandons que l’on n’oublie pas que la raison est pour l’humanité la condition rigoureusement indispensable. Nous ne pouvons sans la raison estimer à sa juste valeur tout ce qui n’est pas de la raison. Et la question même de savoir ce qui revient à la raison et ce qui ne revient pas à la raison, ce n’est que par le travail de la raison que nous pouvons nous la poser. »_\n\nCharles Péguy, De la raison, 1901",
+                "address": "Collèges des Bernardins 20 rue de Poissy, 75005 Paris",
+                "timetable": "2018-12-11T20:00:00 2018-12-11T21:00:00",
+                "title": "La raison n’épuise pas la vie Soirée autour de Charles Péguy",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "description": "Un débat pour découvrir la contemporanéité de l’œuvre de Charles Péguy, un homme qui, par ses contradictions et ses intuitions, éclaira le rapport entre raison et foi."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352034,
+                    48.848838
+                ]
+            },
+            "record_timestamp": "2018-11-02T11:18:24+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "01cc48e4cbb14b5da0e616fd75da2274de39558f",
+            "fields": {
+                "latlon": [
+                    48.848838,
+                    2.352034
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "uid": "67800813",
+                "placename": "Collège des Bernardins 20,ru de Poissy -75005 Paris",
+                "pricing_info": "Tarif : 6€ - 3€ (réduit)",
+                "image": "http://cibul.s3.amazonaws.com/event_pirater-l-humain-donnees-manipulations-et-enjeux-ethiques_341552.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-02T11:20:54+00:00",
+                "space_time_info": "Collège des Bernardins 20, ru de Poissy -75005 Paris, le mardi 11 décembre à 19:30",
+                "department": "Paris",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_pirater-l-humain-donnees-manipulations-et-enjeux-ethiques_341552.jpg",
+                "city_district": "Paris 5e Arrondissement",
+                "link": "http://openagenda.com/event/pirater-l-humain-donnees-manipulations-et-enjeux-ethiques",
+                "free_text": "Nos données personnelles sont collectées et utilisées en permanence par les services en ligne, comme Google ou Facebook ou encore exploitées par les publicitaires pour personnaliser les contenus ou les publicités. Cette surveillance par les données, qu’on appelle parfois « surveillance liquide » ou « Dataveillance » est aujourd’hui omniprésente.\n\nCe que l’on sait moins, c’est que nos données personnelles sont de plus en plus utilisées pour nous influencer, voire nous manipuler. En contrôlant les informations que nous recevons en ligne et en les adaptant à nos comportements, un service comme Facebook peut servir à influencer nos comportements de clients, nos opinions, nos émotions, voire, comme le suggère l’affaire récente « Cambridge Analytica », nos choix politiques.\n\nAvec le développement de l’Intelligence Artificielle, les techniques de détection des émotions et de l’utilisation de la neuroscience en marketing ainsi que les techniques de manipulation vont devenir de plus en plus efficaces, dangereuses et insidieuses. Les fake news seront de plus en plus réalistes et difficilement détectables, et utiliseront des nouveaux formats comme le son ou la vidéo (les deep fakes).\n\nLa manipulation de masse en ligne par les données est un danger croissant pour nos libertés et nos démocraties. Il s’agit d’un problème étonnamment sous-estimé aujourd’hui et qui mériterait beaucoup plus d’attention, de transparence et de recherche ! Comment peut-on se protéger ?",
+                "address": "Collèges des Bernardins 20 rue de Poissy, 75005 Paris",
+                "timetable": "2018-12-11T19:30:00 2018-12-11T20:30:00",
+                "title": "« Pirater » l’humain. Données, manipulations et enjeux éthiques",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "description": "Dans le cadre de la recherche sur Humanisme numérique du Collège des Bernardins, une soirée pour débattre des risques et des enjeux éthiques de la surveillance à la manipulation par les données."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352034,
+                    48.848838
+                ]
+            },
+            "record_timestamp": "2018-11-02T11:20:54+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "3b8c3a5e78bd7df70acda07cc473d87f6ae5a59a",
+            "fields": {
+                "latlon": [
+                    48.860908,
+                    2.318174
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "uid": "31879820",
+                "title": "Réunion de la commission des affaires culturelles et de l'éducation",
+                "image": "http://cibul.s3.amazonaws.com/event_reunion-de-la-commission-des-affaires-culturelles-et-de-l-education_852_733702.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-12-10T16:00:07+00:00",
+                "space_time_info": "Assemblée nationale, le mardi 11 décembre à 16:15",
+                "department": "Paris",
+                "link": "http://openagenda.com/event/reunion-de-la-commission-des-affaires-culturelles-et-de-l-education_852",
+                "free_text": "Audition M.Didier Guillaume ministre de l'agriculture et de l'alimentation, sur le thème de l'enseignement agricole (enseignement secondaire et supérieur)",
+                "placename": "Assemblée nationale",
+                "timetable": "2018-12-11T16:15:00 2018-12-11T18:00:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_reunion-de-la-commission-des-affaires-culturelles-et-de-l-education_852_733702.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "address": "126, rue de l'université, 75007 PARIS",
+                "description": "Réunion de la commission des affaires culturelles et de l'éducation : audition de M.Didier Guillaume ministre de l'agriculture et de l'alimentation"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.318174,
+                    48.860908
+                ]
+            },
+            "record_timestamp": "2018-12-10T16:00:07+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "ed5bc4f842a4ba097d996477137385aaf056724d",
+            "fields": {
+                "latlon": [
+                    48.8498,
+                    2.368239
+                ],
+                "lang": "fr",
+                "city": "Paris",
+                "uid": "41541508",
+                "title": "Libère ton sas vélo !",
+                "image": "http://cibul.s3.amazonaws.com/event_libere-ton-sas-velo_177858.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-12-04T16:04:57+00:00",
+                "space_time_info": "boulevard de la Bastille, le mardi 11 décembre à 08:30",
+                "department": "Paris",
+                "link": "http://openagenda.com/event/libere-ton-sas-velo",
+                "free_text": "Pas d'auto et de moto dans mon sas vélo ! Si toi aussi, tu en as assez de patienter au feu avec une armée d'engins à moteur à tes côtés, rejoins-nous pour notre action #LibèreTonSas vélo à l'angle de la rue de Lyon et du boulevard de la Bastille à Paris.On va faire un peu de pédagogie : marquage au sol et distribution de bons/mauvais points pour rappeler que le sas est là pour la sécurité des cyclistes. Le respecter, c'est :\n\n*   nous permettre d'être vus\n*   de tourner à gauche sans se mettre en danger\n*   de continuer tout droit sans être renversé par les voitures qui vont à droite\n*   et accessoirement de ne pas respirer les pots d'échappement des véhicules à l'arrêt !\n\nCliquer **[ici](http://bit.ly/2Piquuc )** pour retrouver l'évènement sur Facebook.",
+                "placename": "boulevard de la Bastille",
+                "timetable": "2018-12-11T08:30:00 2018-12-11T09:30:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_libere-ton-sas-velo_177858.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "address": "boulevard de la bastille",
+                "description": "Action de MDB pour le respect des sas vélo au feu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.368239,
+                    48.8498
+                ]
+            },
+            "record_timestamp": "2018-12-04T16:04:57+00:00"
+        },
+        {
+            "datasetid": "evenements-publics-cibul",
+            "recordid": "078130b94fedc02609a4664f47e352d526661d74",
+            "fields": {
+                "latlon": [
+                    48.843778,
+                    2.351239
+                ],
+                "lang": "fr",
+                "title": "Write-in : co-working pour auteurs",
+                "uid": "7431370",
+                "placename": "Le Labo de l'édition",
+                "pricing_info": "Payant à l'heure",
+                "image": "http://cibul.s3.amazonaws.com/event_write-in-co-working-pour-auteurs_410_373145.jpg",
+                "date_start": "2018-12-11",
+                "updated_at": "2018-11-23T14:55:48+00:00",
+                "space_time_info": "Le Labo de l'édition, le mardi 11 décembre à 18:30",
+                "department": "Paris",
+                "city": "Paris",
+                "link": "http://openagenda.com/event/write-in-co-working-pour-auteurs_410",
+                "free_text": "Vous voulez réaliser un projet d'écriture ? Vous n'arrivez pas à vous motiver seul.e devant votre page blanche ?\n\nProfitez chaque semaine d'un cadre créatif au Labo de l'édition en compagnie d'autres passionnés d'écriture et de jeux ! [https://www.studio-infinite.fr/ateliers/#formulaire](https://www.studio-infinite.fr/ateliers/#formulaire)\n\nVenez à l'heure que vous voulez entre 18h30 et 23h30 :\n\n*   24€ pour toute la soirée, 20€ en tarif réduit*\n*   5€/h, 4€/h en tarif réduit\n*   1ère heure gratuite pour les nouveaux et les adhérents ;)\n\n## L’atelier inclut :\n\n*   Boissons et nourriture à volonté\n*   Coaching littéraire par le studio infinite\n*   Networking : échanges avec d'autres écrivains en herbes\n*   Partenariat avec le Labo de l’édition\n*   1 stylo pour les nouveaux\n\n*étudiants, moins de 26 ans, demandeurs d’emploi et personnes handicapées.",
+                "address": "2, rue Saint-Médard 75005",
+                "timetable": "2018-12-11T18:30:00 2018-12-11T23:30:00",
+                "image_thumb": "http://cibul.s3.amazonaws.com/evtbevent_write-in-co-working-pour-auteurs_410_373145.jpg",
+                "region": "Île-de-France",
+                "date_end": "2018-12-11",
+                "tags": "écriture,écriture créative,jeu de rôle,write-in",
+                "description": "Rejoignez une communauté bienveillante d'auteurs 1 fois par semaine au Labo de l'édition avec le studio infinite !"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351239,
+                    48.843778
+                ]
+            },
+            "record_timestamp": "2018-11-23T14:55:48+00:00"
+        }
+    ]
+}

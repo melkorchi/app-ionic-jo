@@ -1,0 +1,71 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+        <ion-title>Itinéraire</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-list>
+        <ion-list-header>
+            <h1>Evènements sportifs</h1>
+        </ion-list-header>
+
+        <ion-item *ngFor="let event of sportEvents" text-wrap>
+            {{event.categorie}}
+            <br> {{event.epreuve}}
+            <br> {{event.nomDuSite}} {{event.commune}}
+            <br> {{event.hour}}
+            <button (click)="addEvent(event)" ion-button outline item-end>Add</button>
+        </ion-item>
+
+        <br>
+
+        <ion-list-header>
+            <h1>Evènements OpenDataSoft</h1>
+        </ion-list-header>
+
+        <ion-item *ngFor="let event of openDataBaseEvents" text-wrap>
+            {{ event.fields.title }}
+            <br>{{ event.fields.address }}
+            <br>{{ event.hourDeb }} - {{ event.hourFin }}
+            <button (click)="addEvent(event)" ion-button outline item-end>Add</button>
+        </ion-item>
+    </ion-list>
+
+    <br>
+    <div *ngIf="storedEvents.length > 0">
+        <ion-list-header>
+            <h1>Itinéraire sélectionné</h1>
+        </ion-list-header>
+        <ion-item *ngFor="let event of storedEvents" text-wrap>
+            {{event.title}}
+            <br> {{event.theme}}
+            <br> {{event.lieu}}
+            <br> {{event.hour}}
+            <button (click)="deleteEvent(event)" color="danger" ion-button outline item-end>Delete</button>
+        </ion-item>
+        <button (click)="validate()" ion-button color="secondary" full>Valider Itinéraire</button>
+    </div>
+
+    <br>
+    <div *ngIf="yetStoredEvents.length > 0">
+        <ion-list-header>
+            <h1>Itinéraire déjà sélectionné</h1>
+        </ion-list-header>
+        <ion-item *ngFor="let event of yetStoredEvents" text-wrap>
+            {{event.title}}
+            <br> {{event.theme}}
+            <br> {{event.lieu}}
+            <br> {{event.hour}}
+        </ion-item>
+    </div>
+
+
+
+
+
+</ion-content>

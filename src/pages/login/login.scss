@@ -1,0 +1,30 @@
+page-login {
+    .bg-images {
+        background-image: url('../assets/imgs/bgImage2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo {
+        display: block;
+        margin: auto;
+        width: 25%;
+        margin-top: 16px;
+    }
+    ion-input {
+        background-color: #000000;
+        opacity: 0.8;
+        border-radius: 500px;
+        margin: 0 0 25px 0;
+        color: white;
+    }
+    ion-label {
+        font-weight: bold;
+    }
+    div {
+        p {
+            font-weight: bold;
+            color: #FFF;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+              <ion-icon name="menu"></ion-icon>
+          </button>
+        <div [(ngSwitch)]="opt">
+            <ion-title style="text-align:center" *ngSwitchCase="'signin'">Login</ion-title>
+            <ion-title style="text-align:center" *ngSwitchCase="'signup'">Register</ion-title>
+        </div>
+
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <div id="logo" padding text-center>
+        <!-- <img src="./assets/imgs/logo.png"> -->
+        <h1 class="titre">ECS Application</h1>
+    </div>
+
+    <div padding>
+        <!-- <ion-segment [(ngModel)]="opt" color="light"> -->
+        <ion-segment [(ngModel)]="opt" color="primary">
+            <ion-segment-button value="signin">
+                <!-- Sign In -->
+                {{ 'LOGIN' }}
+            </ion-segment-button>
+            <ion-segment-button value="signup">
+                <!-- Sign Up -->
+                {{ 'SIGNUP'}}
+            </ion-segment-button>
+        </ion-segment>
+    </div>
+
+    <div [ngSwitch]="opt">
+        <form (submit)="doLogin()" *ngSwitchCase="'signin'">
+
+            <ion-label fixed>Email</ion-label>
+            <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+
+            <ion-label fixed>Password</ion-label>
+            <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+
+
+            <div padding text-center>
+                <!-- <button ion-button round color="light" icon-right> -->
+                <button ion-button round color="primary" icon-right>
+                  {{ 'SIGNIN' }} <ion-icon name="log-in"></ion-icon>
+              </button>
+                <p>{{ strloginError }}</p>
+            </div>
+
+
+        </form>
+
+        <form (submit)="doRegister()" *ngSwitchCase="'signup'">
+            <ion-label>{{ 'Username' }}</ion-label>
+            <ion-input type="text" [(ngModel)]="account.username" name="username"></ion-input>
+
+            <ion-label>{{ 'Firstname' }}</ion-label>
+            <ion-input type="text" [(ngModel)]="account.firstname" name="firstname"></ion-input>
+
+            <ion-label>{{ 'Lastname' }}</ion-label>
+            <ion-input type="text" [(ngModel)]="account.lastname" name="lastname"></ion-input>
+
+            <!-- <ion-label float>{{ 'Fullname' }}</ion-label>
+          <ion-input type="text" [(ngModel)]="account.fullname" name="fullname"></ion-input> -->
+
+            <ion-label float>{{ 'Email' }}</ion-label>
+            <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+
+            <ion-label float>{{ 'Password' }}</ion-label>
+            <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+
+            <ion-label float>{{ 'Retry Password' }}</ion-label>
+            <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+
+
+            <div padding text-center>
+                <!-- <button ion-button round color="light" icon-right> -->
+                <button ion-button round color="primary" icon-right>
+                {{ 'SIGNUP' }} <ion-icon name="person-add"></ion-icon>
+              </button>
+
+                <p>{{ strloginError }}</p>
+
+            </div>
+
+
+        </form>
+
+    </div>
+</ion-content>
