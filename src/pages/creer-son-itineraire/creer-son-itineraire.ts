@@ -21,7 +21,8 @@ export class CreerSonItinerairePage {
     }
   }
 
-  ionViewDidLoad() {
+  // ionViewDidLoad() {
+  ionViewDidEnter() {
     console.log('ionViewDidLoad CreerSonItinerairePage');
     // Récup des events sportifs
     this.eventApiProvider.getJoEvents().subscribe(
@@ -42,7 +43,6 @@ export class CreerSonItinerairePage {
     // Récup des events openDataBaseEvents
     this.httpProvider.get('eventOpenDataBase.json').subscribe(
       (data) => {
-        // console.log(data['records']);
         this.openDataBaseEvents = data['records'];
 
         let _self = this;
@@ -85,7 +85,6 @@ export class CreerSonItinerairePage {
         hour: event.hour
       }
     } else {
-      // console.log('OpenDataBase');
       obj = {
         title: event.fields.title,
         theme: 'open datasoft event',
@@ -95,7 +94,6 @@ export class CreerSonItinerairePage {
     }
 
     this.storedEvents.push(obj);
-    // console.log(this.storedEvents);
 
   }
 
@@ -107,7 +105,6 @@ export class CreerSonItinerairePage {
         return;
       }
     });
-    // console.log(theIndex);
     if (theIndex > -1) this.storedEvents.splice(theIndex,1);
   }
 

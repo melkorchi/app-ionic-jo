@@ -1,7 +1,8 @@
 export class EventJo {
-    categorie: string;
+    // categorie: string;
+    discipline: string;
     epreuve: string;
-    nomDuSite: string;
+    site: string;
     commune: string;
     eventDate: Date;
     // latitude: number;

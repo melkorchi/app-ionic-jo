@@ -32,7 +32,8 @@ export class EventDetailsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private googleMaps: GoogleMaps, private platform: Platform, public eventApiProvider: EventApiProvider, public httpProvider: HttpProvider) {
   }
 
-  ionViewDidLoad() {
+  // ionViewDidLoad() {
+  ionViewDidEnter() {
     console.log('ionViewDidLoad EventDetailsPage');
     this.event = this.navParams.data;
     console.log(this.event);
@@ -104,7 +105,6 @@ export class EventDetailsPage {
 
   loadOpenStreetMap(otherEvents) {
     // Multiple markers
-    // this.map = leaflet.map("map_generale").fitWorld();
     this.map = leaflet.map("map", {
       center: [48.8534, 2.3488],
       zoom: 9
@@ -129,12 +129,12 @@ export class EventDetailsPage {
     }
 
     var listePays = "Pays représentés: ";
-      this.event.pays.forEach(element => {
+      this.event.participants.forEach(element => {
         listePays += element +',';
       });
       listePays = listePays.substring(0,listePays.length-1);
     
-    let marqueur = this.getMarker(this.event.latitude, this.event.longitude, heure + ':' +this.event.categorie+', '+this.event.epreuve+', '+this.event.nomDuSite ,heure + ':' +this.event.categorie+', '+this.event.epreuve+', '+this.event.nomDuSite+'.<br>'+ listePays, redIcon);
+    let marqueur = this.getMarker(this.event.lattitude, this.event.longitude, heure + ':' +this.event.discipline+', '+this.event.epreuve+', '+this.event.site ,heure + ':' +this.event.discipline+', '+this.event.epreuve+', '+this.event.site+'.<br>'+ listePays, redIcon);
 
     markerGroup.addLayer(marqueur);
 

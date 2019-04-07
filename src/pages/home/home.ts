@@ -36,29 +36,26 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, private alertCtrl: AlertController, private geolocation: Geolocation, public eventApiProvider: EventApiProvider, private googleMaps: GoogleMaps, public http: HttpClient, public menuCtrl: MenuController, private nativeGeocoder: NativeGeocoder) {
     const data = JSON.parse(localStorage.getItem('userData'));
-    this.userDetails = data;
-    console.log(this.userDetails);
+    this.userDetails = data.users;
+    // console.log('userDetails', this.userDetails);
     this.menuCtrl.enable(true);
   }
 
   ionViewDidEnter() {
+    // Règle le problème du already initialized...
     // ionViewDidLoad() {
-      // const data = JSON.parse(localStorage.getItem('userData'));
-      // this.userDetails = data;
-      // console.log(this.userDetails);
-      // console.log('test');
     this.eventApiProvider.getJoEvents().subscribe(
       (data) => {
         console.log('Map Générale');
-        // console.log(data);
-        // this.events = data.events;
-        this.events = data;
-        console.log(this.events);
+        this.events = data.events;
+        // this.events = data;
+        console.log('events', this.events);
         // Utilisation de OpenStreetMap
         this.loadOpenStreetMap();
       }, 
       (err) => {
-        console.error(err);
+        // console.error(err);
+        console.log(err);
       }
     )
   }
@@ -88,11 +85,12 @@ export class HomePage {
       shadowSize: [41, 41]
     });
 
+    // this.events.forEach(function(event){
     this.events.forEach(function(event){
       console.log(event);
       // console.log(event.ID_EVENT);
-      // let date = new Date(event.eventDate);
-      let date = new Date(event.EVENT_DATE);
+      let date = new Date(event.eventDate);
+      // let date = new Date(event.EVENT_DATE);
       let hour = date.getHours();
       let min = date.getMinutes();
       if (min > 0) {
@@ -100,7 +98,7 @@ export class HomePage {
       } else {
         var heure = hour +'H';
       }
-      console.log(hour + ' ' + min);
+      // console.log(hour + ' ' + min);
       
       var listePays = "Pays représentés: ";
       // event.pays.forEach(element => {
@@ -111,8 +109,8 @@ export class HomePage {
       
 
       let marker: any = leaflet
-        // .marker([event.latitude, event.longitude],{
-        .marker([event.LATTITUDE, event.LONGITUDE],{
+        .marker([event.lattitude, event.longitude],{
+        // .marker([event.LATTITUDE, event.LONGITUDE],{
          icon: greenIcon
         })
         .on('dblclick', () => {
@@ -120,17 +118,18 @@ export class HomePage {
           alert('Marker double clicked');
         })
         // .bindTooltip(heure + ':' +event.categorie+', '+event.epreuve+', '+event.nomDuSite, {
-        .bindTooltip(heure + ':' +event.discipline+', '+event.EPREUVE+', '+event.COMMUNE, {
+        .bindTooltip(heure + ':' +event.discipline+', '+event.epreuve+', '+event.site+ ', ' +event.commune, {
           direction: 'center'
         })
         .openTooltip()
         // .bindPopup(heure + ':' +event.categorie+', '+event.epreuve+', '+event.nomDuSite+'.<br>'+ listePays)
-        .bindPopup(heure + ':' +event.discipline+', '+event.EPREUVE+', '+event.COMMUNE+'.<br>'+ listePays)
+        .bindPopup(heure + ':' +event.discipline+', '+event.epreuve+', '+event.site+ ', ' +event.commune+'.<br>'+ listePays)
         .openPopup();
 
       markerGroup.addLayer(marker);
 
     });
+    // End foreach
 
     this.map.addLayer(markerGroup);
   }

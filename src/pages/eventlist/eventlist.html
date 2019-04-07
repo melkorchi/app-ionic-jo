@@ -7,20 +7,23 @@
     </ion-navbar>
 </ion-header>
 
+<!-- <ion-icon [name]="{{event.icon}}" item-start></ion-icon> -->
 <ion-content>
     <ion-list>
-        <button ion-item *ngFor="let event of events" (click)="goToDetail(event)">
-      <!-- <ion-icon [name]="icon" item-start></ion-icon> -->
-      <ion-icon name="{{event.icon}}" item-start></ion-icon>
-      <!-- {{event.categorie}} -->
-      {{event.discipline}}
-      <div class="item-note" item-end>
-        <!-- {{event.epreuve}} -->
-        {{event.EPREUVE}}
-      </div>
-    </button>
+        <!-- <button ion-item *ngFor="let event of events" (click)="goToDetail(event)">
+            <ion-icon [name]="icon" item-start></ion-icon>
+            <div class="item-note" item-end>
+                {{event.eventDate|date:'H:mm'}} - {{event.discipline}} - {{event.epreuve}}
+            </div>
+        </button> -->
+        <ion-item-sliding *ngFor="let event of events">
+            <ion-item class="entry" text-wrap>
+                <a (click)="goToDetail(event)">
+                    <ion-icon [name]="icon" item-start></ion-icon>
+                    {{event.eventDate|date:'H:mm'}} - {{event.discipline}} - {{event.epreuve}}
+                    <span>Pays représentés: {{event.participants}}</span>
+                </a>
+            </ion-item>
+        </ion-item-sliding>
     </ion-list>
-    <!-- <div *ngIf="selectedItem" padding>
-        You navigated here from <b>{{selectedItem.title}}</b>
-    </div> -->
 </ion-content>

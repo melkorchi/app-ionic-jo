@@ -22,13 +22,10 @@ export class EventlistPage {
   }
 
   ionViewDidLoad() {
-    // this.eventApiProvider.getAllEvents().subscribe(
     this.eventApiProvider.getJoEvents().subscribe(
       (data) => {
-        // console.log('EventlistPage');
-        console.log(data);
-        // this.events = data.events;
-        this.events = data;
+        console.log('list', data);
+        this.events = data.events;
       }, 
       (err) => {
         console.error(err);
